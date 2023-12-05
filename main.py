@@ -90,6 +90,12 @@ async def get_panduan(
         return result_dict
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@app.get("/list_tanaman")
+def list_tanaman():
+    tanaman_list = df_panduan['Tanaman'].tolist()
+    return tanaman_list
+        
 # Starting the server
 if __name__ == "__main__":
     port = os.environ.get("PORT", 8080)
