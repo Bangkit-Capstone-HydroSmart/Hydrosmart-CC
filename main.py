@@ -17,7 +17,7 @@ app = FastAPI()
 model = tf.keras.models.load_model('plant_rec_model.h5')
 
 # Load the DataFrame
-excel_path = r'https://storage.googleapis.com/dataset-hydrosmart/DATASET-HIDROPONIK.xlsx'
+excel_path = r'https://storage.googleapis.com/test2313434/DATASET-HIDROPONIK.xlsx'
 df_tanaman = pd.read_excel(excel_path, 'TrainTestData')
 df_panduan = pd.read_excel(excel_path, 'Tanaman')
 scaler = StandardScaler()
