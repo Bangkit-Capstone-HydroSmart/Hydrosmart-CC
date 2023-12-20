@@ -1,11 +1,11 @@
-Documentation  
+# Documentation  
 
 Cloud Services we used this following services as our infrastructure :
 
 Cloud Run to run the back-end of the apps  
 Cloud storage to store dataset in buckets
 
-Deployment:
+# Deployment:
 
 1. First, we create a a bucket in the cloud storage using an our project service to store dataset.
 2. Before deploying API on cloud run, we use Fast Api framework for a function of the Hydrosmart application, beginning with add the Method, Add the public dataset url.
