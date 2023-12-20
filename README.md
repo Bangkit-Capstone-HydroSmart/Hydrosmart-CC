@@ -1,9 +1,12 @@
+# hydrosmart-cc
+# Description
+Hydrosmart an application that that helps people cultivate hydroponic plants. This application is developed by Bangkit 2023 Capstone Project Team CH2-PS013.
+
 # Documentation  
 
 Cloud Services we used this following services as our infrastructure :
-
-Cloud Run to run the back-end of the apps  
-Cloud storage to store dataset in buckets
+Cloud Run to run the back-end of the apps.  
+Cloud storage to store dataset in bucket.
 
 # Deployment:
 
