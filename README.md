@@ -12,3 +12,6 @@ Deployment:
 3. Then, in the following step, we create a dockerfile in which this docker is used and build an image with a set of commands in Visual Studio Code.
 4. Then push Image to Docker Hub Repository, along with images pushed to DockerHub. Final step is to create a cloud run service and select the images we pushed then configure the environment of Cloud Run Service.
 5. Public API endpoints are now available for use in our application.
+
+# API Documentation
+Postman Documentation:https://documenter.getpostman.com/view/30300759/2s9YeLZVYm
