@@ -2,9 +2,10 @@ fastapi
 pydantic
 uvicorn[standard]
 python-multipart
-numpy
-Pillow
-tensorflow
-pandas
+numpy==1.24.3
+Pillow==10.0.0
+tensorflow==2.13.0
+pandas==2.0.3
 scikit-learn
 openpyxl
+imbalanced-learn
